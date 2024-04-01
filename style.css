@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fbe4d6;
+    text-align: center;
+}
+
+/*nav del head*/
+.navPricipal {
+    background-color: #522b5b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    padding: 20px;
+
+    li {
+        list-style-type: none;
+        display: inline-flex;
+        margin-right: 20px;
+
+        a {
+            text-decoration-line: none;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+    }
+}
+
+/*Ultimo elemento del nav*/
+.ultimoLink {
+    background-color: #110011;
+}
+
+hr {
+    border: 1px solid #522b5b;
+    width: 80%;
+    margin-inline: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main {
+    background-color: #110011;
+
+    /*Estilos de los botones*/
+    button {
+        background-color: #522b5b;
+        border: #fbe4d6;
+        border-radius: 5px;
+        padding: 15px;
+        font-size: 20px;
+        font-weight: bold;
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    /*Estilo del input submit*/
+    .botonBuscar {
+        background-color: #522b5b;
+        border-color: #fbe4d6;
+        border-radius: 30px;
+        padding: 20px;
+        display: inline-block;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        color: #fbe4d6;
+    }
+
+    /*estilo del input buscar...*/
+    input {
+        border-radius: 30px;
+        padding: 20px;
+        display: inline-block;
+        text-align: left;
+        font-size: 20px;
+        font-weight: lighter;
+        color: #110011;
+    }
+
+    .SeccionPrimera {
+        width: 100%;
+        height: 500px;
+        background: url(https://s1.elespanol.com/2023/06/30/elandroidelibre/noticias-y-novedades/775433174_234379810_1706x960.jpg);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+        h1 {
+            padding: 10px;
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        h2 {
+            padding: 30px;
+            font-size: 30px;
+            font-weight: lighter;
+        }
+    }
+
+    .SeccionSecundaria {
+        padding: 50px;
+
+        h2 {
+            font-size: 30px;
+            line-height: 2.5;
+        }
+
+    }
+}
+
+/*seccionSecundaria pelis en tendencias div class pelis*/
+.pelis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 200px;
+        height: 300px;
+        border-radius: 10px;
+        margin: 5px;
+    }
+}
+
+/*seccionSecundaria pelis en tendencias div class aclamadas*/
+.aclamadas {
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    white-space: nowrap;
+    padding: 30px;
+
+    img {
+        width: 150px;
+        height: 200px;
+        border-radius: 10px;
+        margin-right: 30px;
+    }
+}
+
+/* Color de fondo del scrollbar */
+.aclamadas::-webkit-scrollbar {
+    background-color: #110011;
+}
+
+/* Color de la barra de desplazamiento */
+.aclamadas::-webkit-scrollbar-thumb {
+    background-color: #522b5b;
+    border-radius: 5px;
+}
+
+/*nav del footer*/
+.navPie {
+    background-color: #522b5b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 20px;
+
+    li {
+        list-style-type: none;
+        display: inline-flex;
+        margin-right: 20px;
+
+        a {
+            text-decoration-line: none;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    }
+}
+
+/*pagina de registro*/
+.formulario {
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/registro.jpg);
+    background-size: cover;
+
+    form {
+        background-color: #110011;
+        display: inline-block;
+        padding: 100px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        input {
+            margin-top: 15px;
+            background-color: #522b5b;
+            border-color: #fbe4d6;
+            display: inline-block;
+
+        }
+
+        div a {
+            margin-top: 40px;
+            font-size: 1rem;
+            text-decoration: none;
+            color: #787878;
+            font-weight: 400;
+        }
+    }
+
+}
